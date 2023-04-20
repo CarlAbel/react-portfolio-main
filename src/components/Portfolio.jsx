@@ -1,45 +1,32 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/CMS-med-megamenu.PNG";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import CMSMegaMenu from "../assets/portfolio/CMS-cropped-finish.JPG";
+import landrupApp from "../assets/portfolio/landrup-dans-cropped-finish.JPG";
+import trainerApp from "../assets/portfolio/trainer-app-cropped-finish.JPG";
+import hifiCorner from "../assets/portfolio/hifi-corner-cropped-finish.JPG";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: CMSMegaMenu,
       url: "https://plugins.dk/new/ean/"
     },
     {
       id: 2,
-      src: reactParallax,
-      url: "https://plugins.dk/new/ean/"
+      src: landrupApp,
+      url: "https://github.com/CarlAbel"
     },
     {
       id: 3,
-      src: navbar,
-      url: "https://plugins.dk/new/ean/"
+      src: trainerApp,
+      url: "https://github.com/CarlAbel"
     },
     {
       id: 4,
-      src: reactSmooth,
-      url: "https://plugins.dk/new/ean/"
-    },
-    {
-      id: 5,
-      src: installNode,
-      url: "https://plugins.dk/new/ean/"
-    },
-    {
-      id: 6,
-      src: reactWeather,
-      url: "https://plugins.dk/new/ean/"
+      src: hifiCorner,
+      url: "https://github.com/CarlAbel"
     },
   ];
-
   return (
     <div
       name="portfolio"
@@ -57,16 +44,14 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, url }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
+                onClick={() => window.open(url)}
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 min-h-[235px]"
               />
               <div className="flex items-center justify-center">
                 <button onClick={() => window.open(url)} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  View
                 </button>
               </div>
             </div>
