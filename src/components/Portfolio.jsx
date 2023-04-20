@@ -1,5 +1,5 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/CMS-med-megamenu.png";
+import arrayDestruct from "../assets/portfolio/CMS-med-megamenu.PNG";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
@@ -11,26 +11,32 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
+      url: "https://plugins.dk/new/ean/"
     },
     {
       id: 2,
       src: reactParallax,
+      url: "https://plugins.dk/new/ean/"
     },
     {
       id: 3,
       src: navbar,
+      url: "https://plugins.dk/new/ean/"
     },
     {
       id: 4,
       src: reactSmooth,
+      url: "https://plugins.dk/new/ean/"
     },
     {
       id: 5,
       src: installNode,
+      url: "https://plugins.dk/new/ean/"
     },
     {
       id: 6,
       src: reactWeather,
+      url: "https://plugins.dk/new/ean/"
     },
   ];
 
@@ -48,7 +54,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, url }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -56,7 +62,7 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button onClick={() => window.open(url)} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
@@ -72,3 +78,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
