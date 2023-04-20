@@ -9,22 +9,26 @@ const Portfolio = () => {
     {
       id: 1,
       src: CMSMegaMenu,
-      url: "https://plugins.dk/new/ean/"
+      url: "https://plugins.dk/new/ean/",
+      title: "CMS/WP shop with Mega Menu"
     },
     {
       id: 2,
       src: landrupApp,
-      url: "https://github.com/CarlAbel"
+      url: "https://github.com/CarlAbel",
+      title: "Landrup Dans"
     },
     {
       id: 3,
       src: trainerApp,
-      url: "https://github.com/CarlAbel"
+      url: "https://github.com/CarlAbel",
+      title: "Trainer App"
     },
     {
       id: 4,
       src: hifiCorner,
-      url: "https://github.com/CarlAbel"
+      url: "https://github.com/CarlAbel",
+      title: "HIFIcorner"
     },
   ];
   return (
@@ -41,16 +45,18 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, url }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+          {portfolios.map(({ id, src, url, title }) => (
+            <div key={id} className="shadow-md shadow-sky-200 rounded-lg">
+              
               <img
                 onClick={() => window.open(url)}
                 src={src}
-                alt=""
+                alt="portofolio"
                 className="rounded-md duration-200 hover:scale-105 min-h-[235px]"
               />
-              <div className="flex items-center justify-center">
-                <button onClick={() => window.open(url)} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+              <div className="flex-col">
+                <h2 className="px-4 py-2 font-bold">{title}</h2>
+                <button onClick={() => window.open(url)} className="px-8 py-2 my-2 mx-4 duration-200 hover:scale-105 bg-slate-700 rounded-lg font-semibold">
                   View
                 </button>
               </div>
