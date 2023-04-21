@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImage from "../assets/react.png"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
@@ -16,10 +15,9 @@ const Home = () => {
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I am newly graduated and have 2 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, reactJS, ViteJs and Netlify etc..
+            Currently, I love to work on web application and homepages using technologies like
+            React, Tailwind, reactJS, ViteJs, Netlify and CMS systems etc..
           </p>
-
           <div>
             <Link
               to="portfolio"
