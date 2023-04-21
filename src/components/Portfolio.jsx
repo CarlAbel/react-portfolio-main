@@ -37,14 +37,14 @@ const Portfolio = () => {
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8 xs:mt-40">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-2 sm:px-0">
           {portfolios.map(({ id, src, url, title }) => (
             <div key={id} className="shadow-md shadow-sky-200 rounded-lg">
               
@@ -56,7 +56,7 @@ const Portfolio = () => {
               />
               <div className="flex-col">
                 <h2 className="px-4 py-2 font-bold">{title}</h2>
-                <button onClick={() => window.open(url)} className="px-8 py-2 my-2 mx-4 duration-200 hover:scale-105 bg-slate-700 rounded-lg font-semibold">
+                <button onClick={() => window.open(url)} className="px-8 py-2 my-4 mx-4 duration-200 hover:scale-105 bg-slate-700 rounded-lg font-semibold">
                   View
                 </button>
               </div>
