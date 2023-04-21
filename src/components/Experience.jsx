@@ -1,5 +1,3 @@
-import React from "react";
-
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -15,23 +13,23 @@ const Experience = () => {
     {
       id: 1,
       src: html,
-      title: "HTML",
+      title: "HTML5",
       style: "shadow-orange-500",
-      url: "https://github.com/CarlAbel",
+      url: "https://www.geeksforgeeks.org/html/",
     },
     {
       id: 2,
       src: css,
       title: "CSS",
       style: "shadow-blue-500",
-      url: "https://github.com/CarlAbel",
+      url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     },
     {
       id: 3,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
-      url: "https://github.com/CarlAbel",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
       id: 4,
