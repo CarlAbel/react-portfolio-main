@@ -7,6 +7,7 @@ import tailwind from "../assets/tailwind.png";
 import mongodb from "../assets/mongodb.png";
 import netlify from "../assets/netlify.png";
 import render from "../assets/render.png";
+import nodejs from "../assets/nodejs.png";
 
 const Experience = () => {
   const techs = [
@@ -16,6 +17,7 @@ const Experience = () => {
       title: "HTML5",
       style: "shadow-orange-500",
       url: "https://www.geeksforgeeks.org/html/",
+     
     },
     {
       id: 2,
@@ -23,6 +25,7 @@ const Experience = () => {
       title: "CSS",
       style: "shadow-blue-500",
       url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      
     },
     {
       id: 3,
@@ -40,27 +43,34 @@ const Experience = () => {
     },
     {
       id: 5,
+      src: nodejs,
+      title: "Node.js + Express",
+      style: "shadow-green-600",
+      url: "https://nodejs.dev/en/learn/",
+    },
+    {
+      id: 6,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-500",
       url: "https://tailwindcss.com/",
     },
     {
-      id: 6,
+      id: 7,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
       url: "https://github.com/CarlAbel",
     },
     {
-      id: 7,
+      id: 8,
       src: mongodb,
       title: "MongoDB",
       style: "shadow-green-400",
       url: "https://www.mongodb.com/",
     },
     {
-      id: 8,
+      id: 9,
       src: netlify,
       title: "Netlify",
       style: "shadow-sky-300",
@@ -68,7 +78,7 @@ const Experience = () => {
     },
 
     {
-      id: 9,
+      id: 10,
       src: render,
       title: "render.com",
       style: "shadow-green-200",
@@ -90,7 +100,7 @@ const Experience = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-          {techs.map(({ id, src, title, style, url }) => (
+          {techs.map(({ id, src, title, style, url, ratings }) => (
             <div
               key={id}
               onClick={() => window.open(url)}
@@ -98,6 +108,7 @@ const Experience = () => {
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
+              <p className="mt-4">{ratings}</p> 
             </div>
           ))}
         </div>
