@@ -18,31 +18,31 @@ const Portfolio = () => {
       id: 2,
       src: landrupApp,
       url: "https://github.com/CarlAbel",
-      title: "Landrup Dans"
+      title: "Landrup Dans - From Figma to React.js, TailwindCSS, JS"
     },
     {
       id: 3,
       src: pestoPasta,
       url: "https://github.com/CarlAbel",
-      title: "Pesto Pasta"
+      title: "Pesto Pasta - From Figma to HTML5, CSS, JS"
     },
     {
       id: 4,
       src: figmaLand,
       url: "https://github.com/CarlAbel",
-      title: "Figma Land"
+      title: "Figma Land - From Figma to HTML5, CSS, JS"
     },
     {
       id: 3,
       src: trainerApp,
       url: "https://github.com/CarlAbel",
-      title: "Trainer App"
+      title: "Trainer App - From Figma to React.js, TailwindCSS, JS"
     },
     {
       id: 4,
       src: hifiCorner,
       url: "https://github.com/CarlAbel",
-      title: "HIFIcorner"
+      title: "HIFIcorner - Freestyle project with HTML5, CSS, JS"
     },
   ];
   return (
