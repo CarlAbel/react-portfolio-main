@@ -1,4 +1,4 @@
-import HeroImage from "../assets/react.png"
+import HeroImage from "../assets/migAnimated.jpeg"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -9,7 +9,7 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-[976px] px-4 md:flex-row md:h-full">
-        <div className="flex flex-col justify-center -mt-36 md:mt-0">
+        <div className="flex flex-col justify-center -mt-32 md:mt-0">
           <h2 className="text-4xl sm:text-7xl font-bold text-white ">
             I'm a Front end Web Developer
           </h2>
@@ -37,7 +37,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-5/6 md:w-full my-10"
+            className="rounded-2xl mx-auto w-4/6 my-10"
           />
         </div>
       </div>
