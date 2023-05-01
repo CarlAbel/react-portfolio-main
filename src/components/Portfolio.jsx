@@ -3,6 +3,8 @@ import CMSMegaMenu from "../assets/portfolio/CMS-cropped-finish.JPG";
 import landrupApp from "../assets/portfolio/landrup-dans-cropped-finish.JPG";
 import trainerApp from "../assets/portfolio/trainer-app-cropped-finish.JPG";
 import hifiCorner from "../assets/portfolio/hifi-corner-cropped-finish.JPG";
+import pestoPasta from "../assets/portfolio/PestoPasta.png";
+import figmaLand from "../assets/portfolio/FigmaLand.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -17,6 +19,18 @@ const Portfolio = () => {
       src: landrupApp,
       url: "https://github.com/CarlAbel",
       title: "Landrup Dans"
+    },
+    {
+      id: 3,
+      src: pestoPasta,
+      url: "https://github.com/CarlAbel",
+      title: "Pesto Pasta"
+    },
+    {
+      id: 4,
+      src: figmaLand,
+      url: "https://github.com/CarlAbel",
+      title: "Figma Land"
     },
     {
       id: 3,
