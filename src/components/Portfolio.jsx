@@ -12,37 +12,44 @@ const Portfolio = () => {
       id: 1,
       src: CMSMegaMenu,
       url: "https://plugins.dk/new/ean/",
-      title: "CMS/WP shop with Mega Menu"
+      title: "CMS/WP shop with Mega Menu",
+      style: "shadow-orange-200",
     },
     {
       id: 2,
       src: landrupApp,
       url: "https://github.com/CarlAbel",
-      title: "Landrup Dans - From Figma to React.js, TailwindCSS, JS"
+      title: "Landrup Dans - From Figma to React.js, TailwindCSS, JS",
+      style: "shadow-purple-600"
     },
     {
       id: 3,
       src: pestoPasta,
       url: "https://github.com/CarlAbel",
-      title: "Pesto Pasta - From Figma to HTML5, CSS, JS"
+      title: "Pesto Pasta - From Figma to HTML5, CSS, JS",
+      style: "shadow-red-500"
     },
     {
       id: 4,
       src: figmaLand,
       url: "https://github.com/CarlAbel",
-      title: "Figma Land - From Figma to HTML5, CSS, JS"
+      title: "Figma Land - From Figma to HTML5, CSS, JS",
+      style: "shadow-blue-600"
     },
     {
       id: 3,
       src: trainerApp,
       url: "https://github.com/CarlAbel",
-      title: "Trainer App - From Figma to React.js, TailwindCSS, JS"
+      title: "Trainer App - From Figma to React.js, TailwindCSS, JS",
+      style: "shadow-sky-300"
+      
     },
     {
       id: 4,
       src: hifiCorner,
       url: "https://github.com/CarlAbel",
-      title: "HIFIcorner - Freestyle project with HTML5, CSS, JS"
+      title: "HIFIcorner - Freestyle project with HTML5, CSS, JS",
+      style: "shadow-green-600"
     },
   ];
   return (
@@ -59,8 +66,8 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-2 sm:px-0">
-          {portfolios.map(({ id, src, url, title }) => (
-            <div key={id} className="shadow-md shadow-sky-200 rounded-lg">
+          {portfolios.map(({ id, src, url, title, style }) => (
+            <div key={id} className={`shadow-md rounded-lg ${style}`}>
               
               <img
                 onClick={() => window.open(url)}
