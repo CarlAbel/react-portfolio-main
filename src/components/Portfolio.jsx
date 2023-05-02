@@ -12,7 +12,7 @@ const Portfolio = () => {
       id: 1,
       src: CMSMegaMenu,
       url: "https://plugins.dk/new/ean/",
-      title: "CMS/WP shop with Mega Menu",
+      title: "CMS/WP with woocomerce shop with Mega Menu made at internship - Internship took the page down...",
       style: "shadow-orange-200",
     },
     {

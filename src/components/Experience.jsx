@@ -8,6 +8,7 @@ import mongodb from "../assets/mongodb.png";
 import netlify from "../assets/netlify.png";
 import render from "../assets/render.png";
 import nodejs from "../assets/nodejs.png";
+import vitejs from "../assets/vitejs.png";
 
 const Experience = () => {
   const techs = [
@@ -81,6 +82,13 @@ const Experience = () => {
       id: 10,
       src: render,
       title: "render.com",
+      style: "shadow-green-200",
+      url: "https://render.com/",
+    },
+    {
+      id: 11,
+      src: vitejs,
+      title: "vitejs.dev",
       style: "shadow-green-200",
       url: "https://render.com/",
     },
