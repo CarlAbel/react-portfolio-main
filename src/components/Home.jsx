@@ -15,7 +15,7 @@ const Home = () => {
           </h2>
           <p className="text:md md:text-xl font-medium text-gray-500 py-4 max-w-lg">
             I am newly graduated web developer with focus on front end developing and with a bit of back end developing. I have 2 years of experience building and designing software.
-            Currently, I love to work on web application and homepages using technologies like
+            Currently, I love to work on web applications and homepages using technologies like
             React, ViteJs, TailwindCSS, Netlify, render.com and CMS systems(Wordpress, Shopify) etc.. 
             Im also currently learning Next.js and Vue.js.
           </p>
