@@ -19,7 +19,7 @@ const Portfolio = () => {
       id: 2,
       src: landrupApp,
       url: "https://github.com/CarlAbel",
-      title: "Landrup Dans - From Figma to React.js, TailwindCSS, JS",
+      title: "Landrup Dans - From Figma to React.js, TailwindCSS, JS, data from RESTful web-API written with Express and MySQL",
       style: "shadow-purple-600"
     },
     {
@@ -40,7 +40,7 @@ const Portfolio = () => {
       id: 3,
       src: trainerApp,
       url: "https://github.com/CarlAbel",
-      title: "Trainer App - From Figma to React.js, TailwindCSS, JS",
+      title: "Trainer App - From Figma to React.js, TailwindCSS, JS, data from RESTful web-API written with Express and MySQL",
       style: "shadow-sky-300"
       
     },
