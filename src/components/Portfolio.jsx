@@ -65,7 +65,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-2 sm:px-0">
+        <div className="mt-4 grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-2 sm:px-0">
           {portfolios.map(({ id, src, url, title, style }) => (
             <div key={id} className={`shadow-md rounded-lg ${style}`}>
               
