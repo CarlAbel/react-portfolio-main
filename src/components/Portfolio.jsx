@@ -19,28 +19,28 @@ const Portfolio = () => {
       id: 2,
       src: landrupApp,
       url: "https://github.com/CarlAbel",
-      title: "Landrup Dans - From Figma to React.js, TailwindCSS, JS, data from RESTful web-API written with Express and MySQL",
+      title: "Landrup Dans - Figma to React.js, TailwindCSS, JS, data RESTful web-API written with Express and MySQL",
       style: "shadow-purple-600"
     },
     {
       id: 3,
       src: pestoPasta,
       url: "https://github.com/CarlAbel",
-      title: "Pesto Pasta - From Figma to HTML5, CSS, JS",
+      title: "Pesto Pasta - Figma to HTML5, CSS, JS",
       style: "shadow-red-500"
     },
     {
       id: 4,
       src: figmaLand,
       url: "https://github.com/CarlAbel",
-      title: "Figma Land - From Figma to HTML5, CSS, JS",
+      title: "Figma Land - Figma to HTML5, CSS, JS",
       style: "shadow-blue-600"
     },
     {
       id: 3,
       src: trainerApp,
       url: "https://github.com/CarlAbel",
-      title: "Trainer App - From Figma to React.js, TailwindCSS, JS, data from RESTful web-API written with Express and MySQL",
+      title: "Trainer App - Figma to React.js, TailwindCSS, JS, data RESTful web-API written with Express and MySQL",
       style: "shadow-sky-300"
       
     },
@@ -76,7 +76,7 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105 min-h-[235px]"
               />
               <div className="flex-col">
-                <h2 className="px-4 py-2 font-bold">{title}</h2>
+                <h2 className="px-4 py-2 font-medium">{title}</h2>
                 <button onClick={() => window.open(url)} className="px-8 py-2 my-4 mx-4 duration-200 hover:scale-105 bg-slate-700 rounded-lg font-semibold">
                   View
                 </button>
