@@ -12,14 +12,14 @@ const Portfolio = () => {
       id: 1,
       src: CMSMegaMenu,
       url: "https://plugins.dk/new/ean/",
-      title: "CMS/WP with woocomerce shop with Mega Menu made at internship - Internship took the page down...",
+      title: "CMS/WP (with elementorPro) with woocomerce shop with Mega Menu made at internship - Internship took the page down...",
       style: "shadow-orange-200",
     },
     {
       id: 2,
       src: landrupApp,
       url: "https://github.com/CarlAbel",
-      title: "Landrup Dans - Figma to React.js, TailwindCSS, JS, data RESTful web-API written with Express and MySQL",
+      title: "Landrup Dans - Figma to React.js, TailwindCSS, JS, data RESTful web-API written with Express and MySQL - school project",
       style: "shadow-purple-600"
     },
     {
@@ -40,7 +40,7 @@ const Portfolio = () => {
       id: 3,
       src: trainerApp,
       url: "https://github.com/CarlAbel",
-      title: "Trainer App - Figma to React.js, TailwindCSS, JS, data RESTful web-API written with Express and MySQL",
+      title: "Trainer App - Figma to React.js, TailwindCSS, JS, data RESTful web-API written with Express and MySQL - school project",
       style: "shadow-sky-300"
       
     },
