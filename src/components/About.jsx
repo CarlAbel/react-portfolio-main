@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className="text-md mt-12 md:text-xl">
-        My name is Carl Abel, and I'm a 26-year-old newly graduated front-end web developer from Roskilde Technical School. I aspire to become a full-stack web developer ASAP. During my studies, which began in August 2021 and just ended March 2023, I was introduced to the world of web development, specifically front-end development. We gained practical experience with HTML, CSS, Javascript, Tailwind CSS, and Emotion CSS, as well as various frameworks like Gulp, React, Vite.js, and Node.js, mostly developing in React.js. Before starting my studies, I played around with page builders like Shopify and WordPress. And i have approximately four years of experience with audio production and sound manipulation in Fruity Loops.
+        My name is Carl Abel, and I'm a 26-year-old graduated  web developer from Roskilde Technical School. I aspire to become a full-stack web developer ASAP. During my studies, which began in August 2021 and just ended March 2023, I was introduced to the world of web development, specifically front-end development. We gained practical experience with HTML, CSS, Javascript, Tailwind CSS, and Emotion CSS, as well as various frameworks like Gulp, React, Vite.js, and Node.js, mostly developing in React.js. Before starting my studies, I played around with page builders like Shopify and WordPress. And i have approximately four years of experience with audio production and sound manipulation in Fruity Loops.
         </p>
         <br />
         <p className="text-md md:text-xl">

@@ -5,6 +5,7 @@ import trainerApp from "../assets/portfolio/trainer-app-cropped-finish.JPG";
 import hifiCorner from "../assets/portfolio/hifi-corner-cropped-finish.JPG";
 import pestoPasta from "../assets/portfolio/PestoPasta.png";
 import figmaLand from "../assets/portfolio/FigmaLand.png";
+import rooster from "../assets/portfolio/rooster.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -37,7 +38,7 @@ const Portfolio = () => {
       style: "shadow-blue-600"
     },
     {
-      id: 3,
+      id: 5,
       src: trainerApp,
       url: "https://github.com/CarlAbel",
       title: "Trainer App - Figma to React.js, TailwindCSS, JS, data RESTful web-API written with Express and MySQL - school project",
@@ -45,10 +46,17 @@ const Portfolio = () => {
       
     },
     {
-      id: 4,
+      id: 6,
       src: hifiCorner,
       url: "https://github.com/CarlAbel",
       title: "HIFIcorner - Freestyle project with HTML5, CSS, JS",
+      style: "shadow-green-600"
+    },
+    {
+      id: 7,
+      src: rooster,
+      url: "https://caweb-roosterwebopgave.netlify.app/",
+      title: "Rooster-Webopgave - Project with HTML5, CSS, JS",
       style: "shadow-green-600"
     },
   ];
